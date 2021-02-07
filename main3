@@ -96,7 +96,7 @@ end)
 local InfYeild = Admins:addButton("Inifinte Yeild", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-local CmdX = Admins:addButton("", function()
+local CmdX = Admins:addButton("Cmd-X", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 end)
 
