@@ -38,6 +38,7 @@ local Animations = Hub:addPage("Animations", 5012544693)
 local Scripts = Hub:addPage("Script hub", 5012544693)
 local Guis = Hub:addPage("Guis", 5012544693)
 local Hubs = Hub:addPage("Hubs", 5012544693)
+local admin Hub:addPage("Admins", 5012544693)
 local Other = Hub:addPage("Other", 5012544693)
 
 --Sections
@@ -47,6 +48,7 @@ local Anim = Animations:addSection("Both r6 and r15")
 local r6 = Animations:addSection("R6 Only")
 local hubs = Hubs:addSection("Hubs")
 local Script = Scripts:addSection("Scripts")
+local Admins = admin:addSection("Admins")
 
 --Buttons
 wait(0.5)
@@ -86,9 +88,16 @@ local Hat = Script:addButton("FE Hatspin", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zMYZYt6V"))()
 end)
 
---
+--Hubs
 local Domain = hubs:addButton("Domain Hub", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/Ag7Wenfk", true))()
+end)
+--Admins
+local InfYeild = Admins:addButton("Inifinte Yeild", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+local CmdX = Admins:addButton("", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 end)
 
 --Sliders
