@@ -38,7 +38,7 @@ local Animations = Hub:addPage("Animations", 5012544693)
 local Scripts = Hub:addPage("Script hub", 5012544693)
 local Guis = Hub:addPage("Guis", 5012544693)
 local Hubs = Hub:addPage("Hubs", 5012544693)
-local admin Hub:addPage("Admins", 5012544693)
+local admin = Hub:addPage("Admins", 5012544693)
 local Other = Hub:addPage("Other", 5012544693)
 
 --Sections
