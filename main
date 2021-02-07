@@ -46,6 +46,7 @@ wait(0.5)
 local Value = Player:addSection("WalkSpeed and JumpPower")
 local Anim = Animations:addSection("Both r6 and r15")
 local r6 = Animations:addSection("R6 Only")
+local hubs = Hubs:addSection("Hubs")
 local Script = Scripts:addSection("Scripts")
 
 --Buttons
@@ -72,6 +73,7 @@ local Memeus = Anim:addButton("FE Memeus", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/5kGQrNN3"))()
 end)
 
+--Script Hub
 local Building = Script:addButton("FE Building", function()
     loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
 end)
@@ -83,6 +85,11 @@ local VR = Script:addButton("VR Script", function()
 end)
 local Hat = Script:addButton("FE Hatspin", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zMYZYt6V"))()
+end)
+
+--
+local Domain = hubs:addButton("Domain Hub", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Ag7Wenfk", true))()
 end)
 
 --Sliders
