@@ -7,6 +7,8 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Welcome",
     Text = "Loading..."
 })
+wait(0.1)
+loadstring(game:HttpGet("https://pastebin.com/raw/Yp6EB7da"))()
 wait(2)
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Net Bypass",
@@ -40,6 +42,7 @@ local Guis = Hub:addPage("Guis", 5012544693)
 local Hubs = Hub:addPage("Hubs", 5012544693)
 local admin = Hub:addPage("Admins", 5012544693)
 local Other = Hub:addPage("Other", 5012544693)
+local Change = Hub:addPage("ChangeLog" 5012544693)
 
 --Sections
 wait(0.5)
@@ -49,8 +52,11 @@ local r6 = Animations:addSection("R6 Only")
 local hubs = Hubs:addSection("Hubs")
 local Script = Scripts:addSection("Scripts")
 local AdminScripts = admin:addSection("Admins")
+local Fixed = Change:addSection("Fixed Domain Hub")
+local Added = Change:addSection("Added EZ Hub")
+local Fixed2 = Change:addSection("Fixed NetBypass not execting on startup")
 
---Buttons
+--Button
 wait(0.5)
 local Krystal = r6:addButton("Krystal Dance", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/MJdnDfnc"))()
@@ -90,8 +96,12 @@ end)
 
 --Hubs
 local Domain = hubs:addButton("Domain Hub", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/Ag7Wenfk", true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/mainDomain/main/source'),true))()
 end)
+local EZHub = hubs:addButton(EZ Hub"", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
 --Admins
 local InfYeild = AdminScripts:addButton("Inifinte Yeild", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
