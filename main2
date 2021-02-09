@@ -95,7 +95,7 @@ local Hat = Script:addButton("FE Hatspin", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zMYZYt6V"))()
 end)
 local fighter = Script:addButton("Gale Fighter", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/0nTBbwjT"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnJoranwastaken/main/main/Fighter"))()
 end)
 
 --Hubs
