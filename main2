@@ -8,7 +8,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "Loading..."
 })
 wait(0.1)
-loadstring(game:HttpGet("https://pastebin.com/raw/Yp6EB7da"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnJoranwastaken/main/main/NetBypass"))()
 wait(2)
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Net Bypass",
@@ -42,7 +42,7 @@ local Guis = Hub:addPage("Guis", 5012544693)
 local Hubs = Hub:addPage("Hubs", 5012544693)
 local admin = Hub:addPage("Admins", 5012544693)
 local Other = Hub:addPage("Other", 5012544693)
-local Change = Hub:addPage("ChangeLog" 5012544693)
+local Change = Hub:addPage("ChangeLog", 5012544693)
 
 --Sections
 wait(0.5)
@@ -98,7 +98,7 @@ end)
 local Domain = hubs:addButton("Domain Hub", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/mainDomain/main/source'),true))()
 end)
-local EZHub = hubs:addButton(EZ Hub"", function()
+local EZHub = hubs:addButton("EZ Hub", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
 end)
 
