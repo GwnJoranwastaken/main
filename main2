@@ -94,7 +94,7 @@ end)
 local Hat = Script:addButton("FE Hatspin", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zMYZYt6V"))()
 end)
-local fighter = Script:addButton("". function()
+local fighter = Script:addButton("Gale Fighter", function()
     loadstring(HttpGet("https://pastebin.com/raw/0nTBbwjT"))()
 end)
 
