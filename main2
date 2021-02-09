@@ -54,6 +54,7 @@ local Script = Scripts:addSection("Scripts")
 local AdminScripts = admin:addSection("Admins")
 local Fixed = Change:addSection("Fixed Domain Hub")
 local Added = Change:addSection("Added EZ Hub")
+local Added2 = Chane:addSection("Added Gale Fighter")
 local Fixed2 = Change:addSection("Fixed NetBypass not execting on startup")
 
 --Button
@@ -92,6 +93,9 @@ local VR = Script:addButton("VR Script", function()
 end)
 local Hat = Script:addButton("FE Hatspin", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zMYZYt6V"))()
+end)
+local fighter = Script:addButton("". function()
+    loadstring(HttpGet("https://pastebin.com/raw/0nTBbwjT"))()
 end)
 
 --Hubs
