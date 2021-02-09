@@ -54,7 +54,7 @@ local Script = Scripts:addSection("Scripts")
 local AdminScripts = admin:addSection("Admins")
 local Fixed = Change:addSection("Fixed Domain Hub")
 local Added = Change:addSection("Added EZ Hub")
-local Added2 = Chane:addSection("Added Gale Fighter")
+local Added2 = Change:addSection("Added Gale Fighter")
 local Fixed2 = Change:addSection("Fixed NetBypass not execting on startup")
 
 --Button
