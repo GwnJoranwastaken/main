@@ -54,7 +54,6 @@ local Script = Scripts:addSection("Scripts")
 local AdminScripts = admin:addSection("Admins")
 local Fixed = Change:addSection("Fixed Domain Hub")
 local Added = Change:addSection("Added EZ Hub")
-local Added2 = Change:addSection("Added Gale Fighter")
 local Fixed2 = Change:addSection("Fixed NetBypass not execting on startup")
 
 --Button
@@ -80,6 +79,9 @@ end)
 local Memeus = Anim:addButton("FE Memeus", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/5kGQrNN3"))()
 end)
+local Neko = Anim:addButton("", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/7i7CsTPe"))()
+end)
 
 --Script Hub
 local Building = Script:addButton("FE Building", function()
@@ -94,8 +96,11 @@ end)
 local Hat = Script:addButton("FE Hatspin", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zMYZYt6V"))()
 end)
-local fighter = Script:addButton("Gale Fighter", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnJoranwastaken/main/main/Fighter"))()
+local Glitcher = Script:addButton("FE Nebula Glitcher (need 6 fedoras)", function()
+
+end)
+local Glitcher2
+
 end)
 
 --Hubs
