@@ -130,13 +130,7 @@ end)
 
 mouse.KeyUp:Connect(function(key)
 if key == "q" then
-if game.CoreGui.Hub.Main.Visible == true then
-game.CoreGui.Hub.Main.Visible = false
-print("Disabled")
-elseif
-game.CoreGui.Hub.Main.Visible == false then
-game.CoreGui.Hub.Main.Visible = true
-print("Enabled")
+Hub:Toggle
 end
 end
 end)
