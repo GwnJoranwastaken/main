@@ -79,7 +79,7 @@ end)
 local Memeus = Anim:addButton("FE Memeus", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/5kGQrNN3"))()
 end)
-local Neko = Anim:addButton("", function()
+local Neko = Anim:addButton("FE Neko", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/7i7CsTPe"))()
 end)
 
@@ -97,10 +97,7 @@ local Hat = Script:addButton("FE Hatspin", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zMYZYt6V"))()
 end)
 local Glitcher = Script:addButton("FE Achromatic Glitcher (need 6 fedoras)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnJoranwastaken/main/main/Achromatic%20Glitcher")()
-end)
-local Glitcher2
-    print("Fixing")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnJoranwastaken/main/main/Achromatic%20Glitcher"))()
 end)
 
 --Hubs
@@ -130,7 +127,6 @@ end)
 
 mouse.KeyUp:Connect(function(key)
 if key == "q" then
-Hub:Toggle
-end
+Hub:toggle()
 end
 end)
